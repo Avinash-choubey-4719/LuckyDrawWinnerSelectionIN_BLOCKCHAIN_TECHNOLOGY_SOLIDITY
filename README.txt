@@ -26,3 +26,21 @@ Output from script will appear in remix terminal.
 Please note, require/import is supported in a limited manner for Remix supported modules.
 For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
 For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+
+
+
+
+## Winner Selection in Lucky draw using blockchain solidity
+Here, i'm using the remix ide to construct this project.
+A good and reliable software for solidity.
+
+In this project, minimum participants i have taken as 3.
+As the number of participants will be less than the minimum, then Lucky draw will not happen.
+
+I have taken the manager variable as the global varible, which will store the address of the manager.
+
+As the participants will transact some ether into manager's account, then after gaining the ether from the minimum of 3 participants, 
+manger will able to select the winner by calling the SelectWinner function of the lucky.sol.
+
+After execution of the SelectWinner program, winner is selected and that winner will able to gain all the ethers gained by the manger during the registration of the 
+participants...................
